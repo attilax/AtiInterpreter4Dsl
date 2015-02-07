@@ -1,0 +1,22 @@
+{
+    "centerExp":     {
+        "leftComma":         {
+            "leftComma":             {
+                "attNameExp": {"attname": "at1"},
+                "attValExp": {"val": "v1"},
+                "eqExp": {}
+            },
+            "rightCommaExp":             {
+                "attNameExp": {"attname": "at2"},
+                "attValExp": {"val": " v2 abc "},
+                "eqExp": {}
+            }
+        },
+        "rightCommaExp":         {
+            "attNameExp": {"attname": "at3"},
+            "attValExp": {"val": "v3"},
+            "eqExp": {}
+        }
+    },
+    "nameExp": {"value": "@qu"}
+}
