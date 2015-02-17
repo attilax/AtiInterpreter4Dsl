@@ -3,6 +3,7 @@ package com.attilax.dsm.state;
 import com.attilax.designpatter.statepatter.Context;
 import com.attilax.designpatter.statepatter.State;
 import com.attilax.dsm.ContextAti;
+import com.attilax.sql.interpreter.Context4sqlUpExp;
 
 public class iniState implements State {
 
@@ -10,7 +11,7 @@ public class iniState implements State {
 
 	@Override
 	public void handle(String sampleParameter, Context context) {
-		ContextAti ctt=(ContextAti) context;
+		Context4sqlUpExp ctt = (Context4sqlUpExp) context;
 	    char curchar=ctt.curchar;
 	    ctt.charArr=sampleParameter.toCharArray();
 		ctt.curcharIndex=0;
